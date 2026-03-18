@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hiba Home Interior Designer</title>
+
+<style>
+body {margin:0; font-family: Arial;}
+
+/* HERO SECTION */
+.hero {
+  background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center/cover;
+  height: 90vh;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background-blend-mode: darken;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.hero h1 {font-size:50px;}
+.hero p {font-size:20px;}
+
+/* NAVBAR */
+nav {
+  background:#111;
+  display:flex;
+  justify-content:center;
+}
+nav a {
+  color:white;
+  padding:15px;
+  text-decoration:none;
+}
+nav a:hover {background:#c9a96e;}
+
+/* SECTION */
+section {
+  padding:60px 20px;
+  text-align:center;
+}
+
+/* CARDS */
+.container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.card {
+  width:300px;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+.card img {width:100%; height:200px; object-fit:cover;}
+.card h3 {margin:10px;}
+
+/* CONTACT */
+iframe {
+  width:90%;
+  height:300px;
+  border:none;
+}
+
+/* FOOTER */
+footer {
+  background:#111;
+  color:white;
+  padding:20px;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  padding:15px;
+  border-radius:50%;
+  color:white;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1>Hiba Home Interior Designer</h1>
+<p>Luxury Interior Design for Modern Living</p>
+</div>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6">
+<h3>Luxury Living Room</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0">
+<h3>Modern Bedroom</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d">
+<h3>Modular Kitchen</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600210492493-0946911123ea">
+<h3>Office Interior</h3>
+</div>
+
+</div>
+</section>
+
+<section id="portfolio">
+<h2>Our Work</h2>
+<div class="container">
+
+<div class="card"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf"></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e"></div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>📍 Noida</p>
+<p>📞 7095794302</p>
+
+<iframe src="https://maps.google.com/maps?q=Gajraula%20Amroha&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</section>
+
+<footer>
+<p>© 2026 Hiba Home Interior Designer</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919068379056" target="_blank">💬</a>
+
+</body>
+</html>
